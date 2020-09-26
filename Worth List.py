@@ -63,7 +63,8 @@ def wordlist_analyzer(formats_quantity, min_password_length, max_password_length
     position_formats = []
 
     # Read file passwords
-    with open(PATH_LEAK_PASSWORDS, 'r') as passwords_file:
+    # If have a word with unreadable characters, that word will be discarded.
+    with open(PATH_LEAK_PASSWORDS, 'r', errors="ignore") as passwords_file:
         passwords = passwords_file.read().split()
 
     # Password analysis
