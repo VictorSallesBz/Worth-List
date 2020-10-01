@@ -89,7 +89,7 @@ scalene
 
 * Após isso, o dicionário será escrito em "Files/Wordlist.txt".
 
-# Requirements
+# Requirementos
 * Instalar a biblioteca Nltk.
 ```
 pip install nltk
