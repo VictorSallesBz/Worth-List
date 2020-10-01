@@ -103,6 +103,7 @@ pip install tweepy
 # Próximas atualizações
 * Criar uma opção para criar dicionários voltados para força bruta - Leia-se "cópia descarada do Crunch".
 * Implementar a coleta de informações pelo Twitter.
+* Opção de gerar a lista já criptografada em hash para testes de comparação de hashs.
 * Adicionar pequenas funções como:
 1. Adicionar manualmenete formartos.
 2. Adicionar manualmente palavras de referências.
